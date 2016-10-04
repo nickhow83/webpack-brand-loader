@@ -1,13 +1,13 @@
 {
   "name": "webpack-brand-loader",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Webpack Loader to apply brands to files, eg. with a WEBPACK_BRAND environment variable of mybrand set, it would look for files of the format filename.mybrand.extension and then fall back to filename.extension if the file doesn't exist",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nick Howard",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^1.1.3",
     "fs": "0.0.2",
     "loader-utils": "^0.2.16"
