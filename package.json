@@ -1,6 +1,6 @@
 {
   "name": "webpack-brand-loader",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Webpack Loader to apply brands to files, eg. with a WEBPACK_BRAND environment variable of mybrand set, it would look for files of the format filename.mybrand.extension and then fall back to filename.extension if the file doesn't exist",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,9 @@
   "devDependencies": {
     "fs": "0.0.2",
     "loader-utils": "^0.2.16"
+  },
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/nickhow83/webpack-brand-loader"
   }
 }
