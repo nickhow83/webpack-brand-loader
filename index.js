@@ -19,7 +19,7 @@ module.exports = function (source) {
 		try {
 			var pathRegex = /\.[^.]+$/;
 			var extension = filePath.match(pathRegex)[0];
-			filePath = filePath.replace(pathRegex, `.${query.brand}${extension}`);
+			filePath = filePath.replace(pathRegex, `.${brand}${extension}`);
 			
 			var stats = fs.statSync(filePath);
 			if (!stats.isFile()) {
